@@ -27,6 +27,7 @@ Rigth now I'm somehow know:
 *   Telegram: [https://t.me/BrokenHands](https://t.me/BrokenHands)
 *   E-mail: [bsbd42@yandex.ru](bsbd42@yandex.ru)
 *   GitHub: [https://github.com/BrknHnds](https://github.com/BrknHnds)
+*   Имя на discord-канале rs-school: Артём (@BrknHnds)
 
 ## Code example
 
