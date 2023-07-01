@@ -23,6 +23,6 @@ Rigth now I'm somehow know:
 *   English about B2 (C2 as result of [EF Set test](EFSET.org))
 
 ## Social and location
-*   Telegram: https://t.me/BrokenHands
-*   E-mail: bsbd42@yandex.ru
-*   GitHub: @BrknHnds
+*   Telegram: [https://t.me/BrokenHands](https://t.me/BrokenHands)
+*   E-mail: [bsbd42@yandex.ru](bsbd42@yandex.ru)
+*   GitHub: [https://github.com/BrknHnds](https://github.com/BrknHnds)
