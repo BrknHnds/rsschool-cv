@@ -9,7 +9,7 @@
 </div>
 
 ## Bio:
-For the last years I'v been working in sales. Sometimes times it was interesting: to open new branches, train new employees, visit new cities. But over time, the company, like the entire industry, fell into stagnation and there were no interesting responsibilities that involve gaining new experience at all, so now there is no motivation left to work in this area.
+For the last years I'v been working in sales. Sometimes it was interesting: to open new branches, train new employees, visit new cities. But over time, the company, like the entire industry, fell into stagnation and there were no interesting responsibilities that involve gaining new experience at all, so now there is no motivation left to work in this area.
 At the same time with my main job, I also learn programming in my free time. I stoped at web development, but there is no certainty yet: what is more interesting: front or back.
 Objective: to change the field of activity
 
