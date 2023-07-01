@@ -31,13 +31,10 @@ Rigth now I'm somehow know:
 
 ## Code example
 
+[Codewars task: Stop gninnipS My sdroW!](https://www.codewars.com/kata/5264d2b162488dc400000001)
+
 ```
-function factorial(x) {
-    if (x === 0) {
-        return 0;
-    } else if (x === 1) {
-        return 1;
-    }
-    return x * factorial(x - 1);
+function spinWords(string) {
+    return string.split(' ').map(element => element.length > 4 ? element.split('').reverse().join('') : element).join(' ');
 }
 ```
