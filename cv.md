@@ -11,12 +11,13 @@
 ## Bio:
 For the last years I'v been working in sales. Sometimes it was interesting: to open new branches, train new employees, visit new cities. But over time, the company, like the entire industry, fell into stagnation and there were no interesting responsibilities that involve gaining new experience at all, so now there is no motivation left to work in this area.
 At the same time with my main job, I also learn programming in my free time. I stoped at web development, but there is no certainty yet: what is more interesting: front-end or back-end.
-Objective: to change the field of activity
+Objective: to knew something new, to change the field of activity
 
 ## Knowleges:
 Rigth now I'm somehow know:
 *   HTML/CSS
-*   Javascript 
+*   Javascript
+*   Git
 
 ## Languages:
 *   Russian native
@@ -26,3 +27,16 @@ Rigth now I'm somehow know:
 *   Telegram: [https://t.me/BrokenHands](https://t.me/BrokenHands)
 *   E-mail: [bsbd42@yandex.ru](bsbd42@yandex.ru)
 *   GitHub: [https://github.com/BrknHnds](https://github.com/BrknHnds)
+
+## Code example
+
+```
+function factorial(x) {
+    if (x === 0) {
+        return 0;
+    } else if (x === 1) {
+        return 1;
+    }
+    return x * factorial(x - 1);
+}
+```
