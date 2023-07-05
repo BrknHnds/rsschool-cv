@@ -22,16 +22,17 @@ footer {
 #cvPhoto {
     width: 200px;
 }
-.footer_logo {
-    display: inline-block;
-
-    /* height: 1.2em; */
-    /* padding-left: 20px; */
+.footer-logo-rss {
+    /* float: right; */
 }
+.footer-logo-gh {
+    /* float: left; */
+ }
+
 #rss_logo {
     height: 1.2em;
-    float: right;
 }
 #github_logo {
     height: 1.2em;
  }
+ 

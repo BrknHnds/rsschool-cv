@@ -10,33 +10,84 @@
 
 <body>
 
-  <header></header> <!-- заполнить и убрать вайтспейсы -->
+  <header>
+    <img id="cvPhoto" src="assets/img/photo.jpg" alt="photo">
+    <h2>Contacts</h2>
+    <p>
+    <ul>
+      <li>Telegram(preferably): <a href="https://t.me/BrokenHands">https://t.me/BrokenHands</a>
+      <li>E-mail: <a href="mailto:bsbd42@yandex.ru">bsbd42@yandex.ru</a>
+      <li>GitHub: <a href="https://github.com/BrknHnds">https://github.com/BrknHnds</a>
+    </ul>
+    </p>
+  </header> <!-- заполнить и убрать вайтспейсы -->
   <nav></nav> <!-- заполнить и убрать вайтспейсы -->
-        <!-- только один заголовок h1 +5
+  <!-- только один заголовок h1 +5
         заголовки h2 +5 -->
 
-        <!-- навигация, контакты для связи и перечень навыков оформлены в 
+  <!-- навигация, контакты для связи и перечень навыков оформлены в 
           виде списка ul > li или ul > li > a +10 -->
   <main>
-    <p>Bio</p>
-    <img id="cvPhoto" src="assets/img/photo.jpg" alt="photo">
-    <li>
-      <ul>HTML: ★★☆☆☆</ul>
-      <ul>CSS: ★★☆☆☆</ul>
-      <ul>JavaScript: ★★☆☆☆</ul>
-      <ul>Git: ★★☆☆☆</ul>
-    </li>
-  </main>
-  <footer>
+    <h1>There will be h1</h1>
+    <h2>Bio</h2>
+    <p>For the last years I have been working in sales. Sometimes it was interesting: to open new branches, train new
+      employees, visit new cities. But over time, the company, like the entire industry, fell into stagnation and there
+      were no interesting responsibilities that involve gaining new experience at all which, together with a drop in
+      income, does not leave motivation for working in this area. At the same time with my main job, I also learn
+      programming in my free time. I stoped
+      at web development for now. Objectives: dive into something new and to change the field of activity</p>
+
+    <h2>Skills</h2>
+    <ul>
+      <li>★★★☆☆ HTML
+      <li>★★☆☆☆ CSS
+      <li>★★☆☆☆ JavaScript
+      <li>★★☆☆☆ Git
+    </ul>
+
+
+
+    <h2>Languages</h2>
     <p>
-      <a class="footer_logo" href="https://github.com/BrknHnds">https://github.com/BrknHnds
-        <img id="github_logo" src="assets/svg/github.svg" alt="github icon">
-      </a>
-      <!-- <br> -->
-      <a class="footer_logo" href="https://rs.school/js/">https://rs.school/js/
-        <img id="rss_logo" src="assets/svg/rs_school_js.svg" alt="rsschool logo">
-      </a>
+    <ul>
+      <li>Russian(native)</li>
+      <li>English about B2 (C2 as result of EF Set test)</li>
+    </ul>
+
+    <h2>Various code examples:</h2>
+    <p>
+    <ol>
+      <li>
+        <a href="https://www.codewars.com/kata/5264d2b162488dc400000001">Codewars task: Stop gninnipS My sdroW!</a>
+        <pre>
+                function spinWords(string) {
+                    return string.split(' ').map(element => element.length > 4 ? element.split('').reverse().join('') : element).join(' ');
+                }
+          </pre>
+      </li>
+
+      <li>
+        Some random code:
+        <code>console.log(Hello, world!);</code>
+      </li>
+    </ol>
+
+
+
     </p>
+  </main>
+
+  <footer>
+    <a class="footer-logo-rss" href="https://rs.school/js/">https://rs.school/js/
+      <img id="rss_logo" src="assets/svg/rs_school_js.svg" alt="rsschool logo">
+    </a>
+    <!-- <br> -->
+    <!-- указывайте элементам названия классов и стилизуйте классы, 
+        а не теги, не id, не сложные селекторы и т.д -->
+    <a class="footer-logo-gh" href="https://github.com/BrknHnds">https://github.com/BrknHnds
+      <img id="github_logo" src="assets/svg/github.svg" alt="github icon">
+    </a>
+
     <p>2023</p>
   </footer>
 </body>
