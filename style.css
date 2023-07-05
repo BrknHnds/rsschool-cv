@@ -1,0 +1,9 @@
+body {
+    /* position: relative; */
+    /* margin: 0, auto; */
+    margin: auto;
+    width: 1200px;
+}
+.cvPhoto {
+    width: 200px;
+}
