@@ -1,1 +1,1 @@
-# rsschool-cv
+https://brknhnds.github.io/rsschool-cv/
