@@ -11,16 +11,23 @@
 <body>
 
   <header>
-    <img id="cvPhoto" src="assets/img/photo.jpg" alt="photo">
-    <h2 id="contacts">Contacts</h2>
-    <p>
-    <ul>
-      <li>Telegram(preferably): <a href="https://t.me/BrokenHands">https://t.me/BrokenHands</a>
-      <li>E-mail: <a href="mailto:bsbd42@yandex.ru">bsbd42@yandex.ru</a>
-      <li>GitHub: <a href="https://github.com/BrknHnds">https://github.com/BrknHnds</a>
-    </ul>
-    </p>
+    <div class="photo"><img id="cvPhoto" src="assets/img/photo.jpg" alt="photo"></div>
+
+    
+
+    <div class="contacts" id="contacts">
+      <h2>Contacts</h2>
+      <p>
+      <ul>
+        <li>Telegram(preferably): <a href="https://t.me/BrokenHands">https://t.me/BrokenHands</a>
+        <li>E-mail: <a href="mailto:bsbd42@yandex.ru">bsbd42@yandex.ru</a>
+        <li>GitHub: <a href="https://github.com/BrknHnds">https://github.com/BrknHnds</a>
+      </ul>
+      </p>
+    </div>
   </header>
+
+
 
   <nav>
     <ul>
@@ -29,8 +36,8 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#languages">Languages</a></li>
       <li><a href="#code-examples">Code Examples</a></li>
-      <li><a href="">Education</a></li>
-      <li><a href="">Projects</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
     </ul>
   </nav>
   <!-- только один заголовок h1 +5
@@ -40,14 +47,17 @@
           виде списка ul > li или ul > li > a +10 -->
   <main>
     <h1>There will be h1</h1>
-    <h2 id="bio">Bio</h2>
-    <p>
-      For the last years I have been working in sales. Sometimes it was interesting: to open new branches, train new
-      employees, visit new cities. But over time, the company, like the entire industry, fell into stagnation and there
-      were no interesting responsibilities that involve gaining new experience at all which, together with a drop in
-      income, does not leave motivation for working in this area. At the same time with my main job, I also learn
-      programming in my free time. I stoped at web development for now. Objectives: dive into something new and to change the field of activity
-    </p>
+    
+    <div class="bio">
+      <h2 id="bio">Bio</h2>
+      <p>
+        For the last years I have been working in sales. Sometimes it was interesting: to open new branches, train new
+        employees, visit new cities. But over time, the company, like the entire industry, fell into stagnation and there
+        were no interesting responsibilities that involve gaining new experience at all which, together with a drop in
+        income, does not leave motivation for working in this area. At the same time with my main job, I also learn
+        programming in my free time. I stoped at web development for now. Objectives: dive into something new and to change the field of activity
+      </p>
+    </div>
 
     <h2 id="skills">Skills</h2>
     <ul>
@@ -83,7 +93,7 @@
       </li>
     </ol>
 
-    <h2>Links to training projects </h2>
+    <h2 id="projects">Links to training projects </h2>
     <p><a href="https://brknhnds.github.io/restaurant2019/">An old project from 2019</a></p>
     <p><a href="https://brknhnds.github.io/rsschool-cv/">RS School CV</a></p>
   </main>
