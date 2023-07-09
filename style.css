@@ -4,14 +4,20 @@ body {
 }
 
 header {
+    background-color: #f6f6f6;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
+    border-bottom: 1px solid #000000;
 }
 
+header div {
+    margin-right: 10px;
+}
 
 .contacts {
     min-width: 250px;
 }
+
 .contacts ul {
     list-style-position: inside;
     list-style-type: none;
@@ -21,37 +27,49 @@ header {
 nav ul {
     background-color: #cacaca;
     display: flex;
-    justify-content:space-evenly;
+    justify-content: space-evenly;
     list-style-type: none;
 }
+
 nav a {
     font-size: 1.2em;
     text-decoration: none;
 }
-nav a:hover {
-    color: blue;
-    text-decoration: underline;
-}
+
 a:visited {
     color: #000000;
 }
+
 a:active {
     color: #000000;
 }
 
- main {
+main {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
     background-color: #f6f6f6;
     margin: 10px 0;
 }
 
+.code-examples a:hover {
+    /* color: #0000ff; */
+}
+
 footer {
+    background-color: #f6f6f6;
     border-top: 1px solid #000000;
     font-size: 1em;
 }
 
-
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
 
 #cvPhoto {
+    display: block;
     width: 150px;
 }
 
@@ -69,4 +87,16 @@ footer {
 
 #github_logo {
     height: 1.2em;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+a:link {
+    color: #000000;
+    text-decoration: none;
+}
+a:active {
+    color: brown;
 }
