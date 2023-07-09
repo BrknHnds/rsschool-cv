@@ -1,6 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     width: 1000px;
+    min-height: 100vh;
     margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.1em;
 }
 
 header {
@@ -21,14 +28,21 @@ header div {
 .contacts ul {
     list-style-position: inside;
     list-style-type: none;
-    padding: 0;
+
 }
+
 
 nav ul {
     background-color: #cacaca;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
 }
 
 nav a {
@@ -53,14 +67,22 @@ main {
     margin: 10px 0;
 }
 
-.code-examples a:hover {
-    /* color: #0000ff; */
-}
-
 footer {
     background-color: #f6f6f6;
     border-top: 1px solid #000000;
     font-size: 1em;
+}
+
+footer .date {
+    position: absolute;
+    margin-top: 40px;
+    padding-bottom: 5px;
+    font-size: 0.8em;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
 }
 
 .skills ul {
@@ -70,21 +92,21 @@ footer {
 
 #cvPhoto {
     display: block;
-    width: 150px;
+    width: 180px;
 }
 
-.footer-logo-rss {
-    /* float: right; */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
 }
 
-.footer-logo-gh {
-    /* float: left; */
+
+ul li {
+    margin-bottom: 3px;
 }
 
-#rss_logo {
-    height: 1.2em;
-}
-
+#rss_logo,
 #github_logo {
     height: 1.2em;
 }
@@ -92,11 +114,18 @@ footer {
 a:hover {
     color: blue;
     text-decoration: underline;
+    background-color: #e2e2e2;
 }
+
+footer a:hover {
+    background-color: #f6f6f6;
+}
+
 a:link {
     color: #000000;
     text-decoration: none;
 }
+
 a:active {
-    color: brown;
+    color: #a52a2a;
 }
