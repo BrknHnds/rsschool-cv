@@ -1,15 +1,24 @@
 html {
-    position: relative;
-    width: 1200px;
-    min-width: 800px;
+    /* position: relative; */
 }
+
 body {
+    width: 1000px;
+    margin: 0 auto;
+}
 
-
+nav {
+    display: block;
+}
+nav ul {
+    list-style-type: none;
 }
 
 main {
-    align-items: center;
+    background-color: #f6f6f6;
+    /* margin: 10px 0; */
+    padding: 0 10px;
+    /* align-items: center; */
 }
 
 footer {
@@ -22,17 +31,19 @@ footer {
 #cvPhoto {
     width: 200px;
 }
+
 .footer-logo-rss {
     /* float: right; */
 }
+
 .footer-logo-gh {
     /* float: left; */
- }
+}
 
 #rss_logo {
     height: 1.2em;
 }
+
 #github_logo {
     height: 1.2em;
- }
- 
+}

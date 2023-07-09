@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>RS School CV#3</title>
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,7 +12,7 @@
 
   <header>
     <img id="cvPhoto" src="assets/img/photo.jpg" alt="photo">
-    <h2>Contacts</h2>
+    <h2 id="contacts">Contacts</h2>
     <p>
     <ul>
       <li>Telegram(preferably): <a href="https://t.me/BrokenHands">https://t.me/BrokenHands</a>
@@ -20,8 +20,19 @@
       <li>GitHub: <a href="https://github.com/BrknHnds">https://github.com/BrknHnds</a>
     </ul>
     </p>
-  </header> <!-- заполнить и убрать вайтспейсы -->
-  <nav></nav> <!-- заполнить и убрать вайтспейсы -->
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#contacts">Contacts</a></li>
+      <li><a href="#bio">Bio</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#languages">Languages</a></li>
+      <li><a href="#code-examples">Code Examples</a></li>
+      <li><a href="">Education</a></li>
+      <li><a href="">Projects</a></li>
+    </ul>
+  </nav>
   <!-- только один заголовок h1 +5
         заголовки h2 +5 -->
 
@@ -29,33 +40,35 @@
           виде списка ul > li или ul > li > a +10 -->
   <main>
     <h1>There will be h1</h1>
-    <h2>Bio</h2>
-    <p>For the last years I have been working in sales. Sometimes it was interesting: to open new branches, train new
+    <h2 id="bio">Bio</h2>
+    <p>
+      For the last years I have been working in sales. Sometimes it was interesting: to open new branches, train new
       employees, visit new cities. But over time, the company, like the entire industry, fell into stagnation and there
       were no interesting responsibilities that involve gaining new experience at all which, together with a drop in
       income, does not leave motivation for working in this area. At the same time with my main job, I also learn
-      programming in my free time. I stoped
-      at web development for now. Objectives: dive into something new and to change the field of activity</p>
+      programming in my free time. I stoped at web development for now. Objectives: dive into something new and to change the field of activity
+    </p>
 
-    <h2>Skills</h2>
+    <h2 id="skills">Skills</h2>
     <ul>
       <li>★★★☆☆ HTML
       <li>★★☆☆☆ CSS
       <li>★★☆☆☆ JavaScript
       <li>★★☆☆☆ Git
     </ul>
+<h2 id="education">Education</h2>
+<p>In progress <a href="https://rs.school/js-stage0/">RS School stage 0</a></p>
 
 
-
-    <h2>Languages</h2>
+    <h2 id="languages">Languages</h2>
     <p>
     <ul>
       <li>Russian(native)</li>
       <li>English about B2 (C2 as result of <a href="https://www.efset.org/">EF Set test</a>)</li>
     </ul>
 
-    <h2>Various code examples:</h2>
-    <p>
+    <h2 id="code-examples">Code examples:</h2>
+    
     <ol>
       <li>
         <a href="https://www.codewars.com/kata/5264d2b162488dc400000001">Codewars task: Stop gninnipS My sdroW!</a>
@@ -71,20 +84,14 @@
     </ol>
 
     <h2>Links to training projects </h2>
-    <a href="https://brknhnds.github.io/restaurant2019/">An old project from 2019</a>
-
-
-
-    </p>
+    <p><a href="https://brknhnds.github.io/restaurant2019/">An old project from 2019</a></p>
+    <p><a href="https://brknhnds.github.io/rsschool-cv/">RS School CV</a></p>
   </main>
 
   <footer>
     <a class="footer-logo-rss" href="https://rs.school/js/">https://rs.school/js/
       <img id="rss_logo" src="assets/svg/rs_school_js.svg" alt="rsschool logo">
     </a>
-    <!-- <br> -->
-    <!-- указывайте элементам названия классов и стилизуйте классы, 
-        а не теги, не id, не сложные селекторы и т.д -->
     <a class="footer-logo-gh" href="https://github.com/BrknHnds">https://github.com/BrknHnds
       <img id="github_logo" src="assets/svg/github.svg" alt="github icon">
     </a>
